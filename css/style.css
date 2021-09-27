@@ -24,7 +24,7 @@ button{
     border: none;
     border-radius: 10px;
     color: #fff;
-    background-color:transparent;
+    background-color:rgba(255, 255, 255, 0.295);
     outline: none;
     box-shadow: 0 0.3rem rgba(121, 121, 121, a0.70);
 }
