@@ -10,32 +10,41 @@
 .img{
     width: 50%;
 }
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 30px;
-    color: white;
+.btn-conatiner{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-a.button:hover{
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px;
-    padding: 10px,20px,20px,10px;
-    border-radius: 8px;
-    font-size: 30px;
-    color: #BD9592;
-    background-color: white;
-    transition: 0.5s;
+button{
     cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color:transparent;
+    outline: none;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, a0.70);
+}
+button:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #BD9592;
+    background-color:white;
+    outline: none;
+    box-shadow: 0 0.3rem rgba(90, 90, 90, 0.021);
+    transition: 0.5s;
+}
+button:active{
+    color: #BD9592;
+    background-color: rgb(218, 218, 218);
+    transform: translate(0,0.3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, 0.041);
 }
